@@ -20,4 +20,3 @@ for range in ranges:
         testval = int(pidminleft + pidminleft)
 
 print("answer is",answer)
-#31839939611 is too low
