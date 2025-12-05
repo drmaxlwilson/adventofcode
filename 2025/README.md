@@ -7,7 +7,7 @@
 | 2 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/ecb7601bc7a2b727e7f01f0e6fac68aba012674a/2025/2/2.py) | [:star:](2/2.py) |
 | 3 | [:star:](3/3.py) | [:star:](3/3.py) |
 | 4 | [:star:](4/4.py) | [:star:](4/4.py) |
-| 5 |  |  |
+| 5 | [:star:](5/5.py) |  |
 | 6 |  |  |
 | 7 |  |  |
 | 8 |  |  |
