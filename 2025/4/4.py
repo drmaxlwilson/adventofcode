@@ -1,3 +1,5 @@
+import datetime
+
 with open('4.in') as f:
     dataset = f.readlines()
     dataset = [line.rstrip('\n') for line in dataset]
@@ -33,9 +35,15 @@ def part2():
                 dataset[paperroll[1]][paperroll[0]] = "."
     return movedtotal
 
-
+t0 = datetime.datetime.now()
 answer = part1()
 print("part 1",len(answer))
-
+t1 = datetime.datetime.now()
 answer = part2()
 print("part 2",answer)
+t2 = datetime.datetime.now()
+
+td1 = t1-t0
+td2 = t2-t1
+print("part 1: {} ms".format(td1.microseconds/1000))
+print("part 2: {} ms".format(td2.microseconds/1000))
