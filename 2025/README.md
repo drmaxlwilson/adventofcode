@@ -9,7 +9,7 @@
 | 4 | [:star:](4/4.py) | [:star:](4/4.py) |
 | 5 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/226c6bc7212bff618f47c8763377df7d6225fa18/2025/5/5.py) | [:star:](5/5.py) |
 | 6 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/9926913ed22aab98a9bd3d675859f4c839a24812/2025/6/6.py) | [:star:](6/6.py) |
-| 7 | [:star:](7/7.py) |  |
+| 7 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/5d135ee668e94828e0951987d341ec75ef62e1ef/2025/7/7.py) | [:star:](7/7.py) | 
 | 8 |  |  |
 | 9 |  |  |
 | 10 |  |  |

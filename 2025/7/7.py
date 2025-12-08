@@ -24,11 +24,41 @@ def part1():
     return count_hits
 
 def part2():
-    True
+    for y in range(0,len(dataset)-1):
+        for x in range(0,len(dataset[0])):
+            if dataset[y][x] == "S":
+                dataset[y+1][x] = "1"
+            elif dataset[y][x] == "^":
+                if dataset[y+1][x-1] == "|":
+                    dataset[y+1][x-1] = "0"
+                if dataset[y+1][x+1] == "|":
+                    dataset[y+1][x+1] = "0"
+                if dataset[y-1][x] == ".":
+                    dataset[y-1][x] = "0"
+                dataset[y+1][x-1] = str(int(dataset[y+1][x-1]) + int(dataset[y-1][x]))
+                dataset[y+1][x+1] = str(int(dataset[y+1][x+1]) + int(dataset[y-1][x]))
+            elif dataset[y][x] == "|":
+                dataset[y][x] = dataset[y-1][x]
+                if dataset[y+1][x] == "|":
+                    dataset[y+1][x] = "0"
+                # print("found one")
+                dataset[y+1][x] = str(int(dataset[y+1][x]) + int(dataset[y][x]))
+        # print("".join(dataset[y]))
+        # temp = input()
+    result = 0
+    for i in range(0,len(dataset[0])):
+        if dataset[len(dataset)-1][i] != ".":
+            result += int(dataset[len(dataset)-1][i])
+    return result
+
+def printgrid():
+    for row in dataset:
+       print("".join(row))
 
 t0 = datetime.datetime.now()
 answer = part1()
 print("part 1",answer)
+printgrid()
 t1 = datetime.datetime.now()
 answer = part2()
 print("part 2",answer)
