@@ -1,13 +1,13 @@
 import datetime
 import math
 
+t0 = datetime.datetime.now()
 myfile = '8.in'
 with open(myfile) as f:
     dataset = f.readlines()
     dataset = [tuple(map(int,line.rstrip('\n').split(","))) for line in dataset]
     dataset = sorted(dataset)
 
-t0 = datetime.datetime.now()
 distances = {}
 for i in range(0,len(dataset)):
     for j in range(i+1,len(dataset)):
