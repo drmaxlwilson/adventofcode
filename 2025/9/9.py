@@ -198,14 +198,15 @@ t1 = datetime.datetime.now()
 answer = part2a()
 print("part 2",answer)
 t2 = datetime.datetime.now()
-answer = part2()
-print("P2 slow",answer)
-t3 = datetime.datetime.now()
+# answer = part2()
+# print("P2 slow",answer)
+# t3 = datetime.datetime.now()
 td1 = t1-t0
 td2 = t2-t1
-td3 = t3-t2
+# td3 = t3-t2
 print("Part 1 time: {} ms".format(td1.microseconds/1000))
+print("Part 2 time: {} s".format(td2.seconds))
 print("Part 2 time: {} ms".format(td2.microseconds/1000))
-print("P2 Slowwwww: {} days".format(td3.days))
-print("P2 Slowwwww: {} s".format(td3.seconds))
-print("P2 Slowwwww: {} ms".format(td3.microseconds/1000))
+# print("P2 Slowwwww: {} days".format(td3.days))
+# print("P2 Slowwwww: {} s".format(td3.seconds))
+# print("P2 Slowwwww: {} ms".format(td3.microseconds/1000))
