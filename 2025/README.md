@@ -11,7 +11,7 @@
 | 6 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/9926913ed22aab98a9bd3d675859f4c839a24812/2025/6/6.py) | [:star:](6/6.py) |
 | 7 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/5d135ee668e94828e0951987d341ec75ef62e1ef/2025/7/7.py) | [:star:](7/7.py) | 
 | 8 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/646bf2cd3cf0d995486da0b04b42bb6260d2cd79/2025/8/8.py) | [:star:](8/8.py) | 
-| 9 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/d4acac99ca31fe03735121b3e01007ca3444b844/2025/9/9.py) [:star:](9/9.py) |
+| 9 | [:star:](https://github.com/drmaxlwilson/adventofcode/blob/d4acac99ca31fe03735121b3e01007ca3444b844/2025/9/9.py) | [:star:](9/9.py) |
 | 10 |  |  |
 | 11 |  |  |
 | 12 |  |  |
