@@ -21,4 +21,4 @@ t2 = datetime.datetime.now()
 td1 = t1-t0
 td2 = t2-t1
 print("Part 1 time: {} ms".format(td1.microseconds/1000))
-print("Part 1 time: {} ms".format(td2.microseconds/1000))
+print("Part 2 time: {} ms".format(td2.microseconds/1000))
